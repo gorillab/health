@@ -2,7 +2,7 @@
 the simplest health check middleware for express app
 
 ## usage
-```
+```javascript
 import Express from 'express';
 import health from 'health';
 
