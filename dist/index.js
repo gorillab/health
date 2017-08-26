@@ -1,0 +1,1 @@
+Object.defineProperty(exports,'__esModule',{value:true});var health=function health(req,res){res.status(200).send('Ok')};exports['default']=health;
