@@ -1,5 +1,9 @@
-const health = (req, res) => {
-  res.status(200).send('Ok');
-};
+import express from 'express';
 
-export default health;
+const router = express.Router();
+
+router.get('/health', (req, res) => {
+  res.send('OK');
+});
+
+export default () => router;

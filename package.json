@@ -23,7 +23,7 @@
     "build": "babel src --out-dir dist --minified"
   },
   "dependencies": {
-    "qs": "^6.5.0"
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
