@@ -2,7 +2,7 @@
 the simplest health check middleware for express app
 
 ## install
-```javascript
+```
 npm install gorillab-health --save
 
 # or
