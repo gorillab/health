@@ -1,7 +1,7 @@
 {
-  "name": "gorillab-health",
-  "version": "1.0.1",
-  "description": "Gorillab health check middleware for express",
+  "name": "@gorillab/health",
+  "version": "1.0.0",
+  "description": "The simplest health check middleware for express app",
   "author": {
     "name": "Gorillab",
     "email": "hello@gorillab.co",
