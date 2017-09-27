@@ -7,16 +7,18 @@
 
 The simplest health check middleware for express app
 
-## installation
+### installation
 ```bash
 yarn add @gorillab/health
-
-# or
-
-npm install @gorillab/health --save
 ```
 
-## usage
+or using `npm`
+
+```bash
+npm install --save @gorillab/health
+```
+
+### usage
 ```javascript
 import Express from 'express';
 import Health from '@gorillab/health';
