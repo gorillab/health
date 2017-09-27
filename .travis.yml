@@ -22,10 +22,9 @@ deploy:
   api_key: $NPM_AUTH_TOKEN
   skip_cleanup: true
   on:
+    node: '8'
     branch: master
     tags: true
-    node: '8'
-  tag: next
 
 notifications:
   email: false
